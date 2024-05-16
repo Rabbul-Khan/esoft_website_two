@@ -1,21 +1,20 @@
 const Footer = () => {
   return (
-    <footer className="flex bg-blue-700 text-white px-20 py-5 mt-14 justify-center gap-5 flex-col text-center md:flex-row">
+    <footer className="flex flex-col justify-center gap-5 px-20 py-5 text-center text-white bg-blue-700 mt-14 md:flex-row">
       <p>© NexGen 2024. All rights reserved.</p>
-      <ul className="flex gap-5 justify-center ">
+      <ul className="flex justify-center gap-5 ">
         <li>
-          <a className="btn-link text-white" href="#">
-            {' '}
+          <a className="text-white btn-link" href="#">
             Privacy Policy
           </a>
         </li>
         <li>
-          <a className="btn-link text-white" href="#">
+          <a className="text-white btn-link" href="#">
             Terms of Service
           </a>
         </li>
         <li>
-          <a className="btn-link text-white" href="#">
+          <a className="text-white btn-link" href="#">
             Contact Us
           </a>
         </li>

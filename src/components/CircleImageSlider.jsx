@@ -1,38 +1,40 @@
+import IMAGES from '../assets/Images/Images';
+
 const CircleImageSlider = () => {
   return (
-    <div className="px-5 md:px-20 flex flex-col gap-10 pt-20">
-      <h2 className="text-center font-bold text-4xl text-white">
+    <div className="flex flex-col gap-10 px-5 pt-20 md:px-20">
+      <h2 className="text-4xl font-bold text-center text-white">
         Explore Our Products
       </h2>
-      <div className="carousel carousel-center w-full">
+      <div className="w-full carousel carousel-center">
         <div id="item1" className="carousel-item w-[200px] h-[200px] px-10">
           <img
-            src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg"
-            className="w-full rounded-[50%]"
+            src={IMAGES.image2}
+            className="w-full rounded-[50%] object-cover"
           />
         </div>
         <div id="item2" className="carousel-item w-[200px] h-[200px] px-10">
           <img
-            src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
-            className="w-full rounded-[50%]"
+            src={IMAGES.image1}
+            className="w-full rounded-[50%] object-cover"
           />
         </div>
         <div id="item3" className="carousel-item w-[200px] h-[200px] px-10">
           <img
-            src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg"
-            className="w-full rounded-[50%]"
+            src={IMAGES.image2}
+            className="w-full rounded-[50%] object-cover"
           />
         </div>
         <div id="item4" className="carousel-item w-[200px] h-[200px] px-10">
           <img
-            src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
-            className="w-full rounded-[50%]"
+            src={IMAGES.image1}
+            className="w-full rounded-[50%] object-cover"
           />
         </div>
         <div id="item5" className="carousel-item w-[200px] h-[200px] px-10">
           <img
-            src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg"
-            className="w-full rounded-[50%]"
+            src={IMAGES.image2}
+            className="w-full rounded-[50%] object-cover"
           />
         </div>
         <div id="item6" className="carousel-item w-[200px] h-[200px] px-10">
@@ -43,7 +45,7 @@ const CircleImageSlider = () => {
         </div>
       </div>
 
-      <div className="flex justify-center w-full py-2 gap-2">
+      <div className="flex justify-center w-full gap-2 py-2">
         <a href="#item1" className="btn btn-xs">
           1
         </a>
